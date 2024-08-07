@@ -1,0 +1,30 @@
+.full-height {
+    height: calc(100vh - 56px);
+}
+.glow_hover:hover {
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3), 0 6px 20px rgba(0, 123, 255, 0.3);
+}
+
+.br{
+    border-right: 1px solid #353535;
+    
+ 
+}
+.navbar-image {
+     /* Adjust this value to increase/decrease the image size */
+    width: auto; /* Maintains the aspect ratio */
+  }
+
+  .see-solution:hover {
+    /* box-shadow: 0 0 20px rgba(255, 0, 0, 0.6); 
+    /* You can use rgba with different colors and opacity for different effects */
+    background-color: rgb(125, 124, 124);
+    color: rgb(215, 42, 42);
+
+  }
+
+.search_bar{
+      height: 36px; /* Change this to your preferred height */
+      overflow-y: hidden; /* Hide vertical overflow */
+      overflow-x:auto; 
+}
